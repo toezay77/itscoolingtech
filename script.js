@@ -18,7 +18,7 @@
   Use digits only: no + sign, spaces or hyphens.
 */
 
-const WHATSAPP_NUMBER = "234XXXXXXXXXX";
+const WHATSAPP_NUMBER = "2348036466839";
 
 /* =====================================================
    1. HELPER FUNCTIONS
