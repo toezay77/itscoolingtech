@@ -102,7 +102,17 @@ getElements("[data-contact]").forEach((button) => {
     );
   });
 });
+getElements("[data-service-enquiry]").forEach((button) => {
+  button.addEventListener("click", () => {
+    const serviceName = button.dataset.serviceEnquiry;
 
+    openWhatsApp(
+      "Hello Itscoolingtech! I'd like to enquire about " +
+      serviceName +
+      ". Please let me know the available options and how I can get a quote."
+    );
+  });
+});
 /* =====================================================
    4. MOBILE NAVIGATION
 ===================================================== */
